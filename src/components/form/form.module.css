@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #3498db, #c0392b);
+    margin: 0;
+  }
+  .main input{
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    background-color: #fafafa;
+  }
+  .termos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .main form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: #3498db 7px 7px 7px;
+    text-align: center;
+  }
+  
+  .main button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    font-size: 7pt;
+  }
+  

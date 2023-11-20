@@ -37,6 +37,9 @@ export default function Formulario(){
 
                 <button type="submit">Enviar</button>
             </form>
+            <div className={styles.footer}>
+                <p>©2023 - CV&AR</p>
+            </div>
         </div>
         
     );

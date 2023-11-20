@@ -3,8 +3,9 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to bottom right, #3498db, #c0392b);
+    background: linear-gradient(to bottom right, #0a3755, #778899);
     margin: 0;
+    flex-direction: column
   }
   .main input{
     border-radius: 10px;
@@ -20,10 +21,12 @@
   }
   .main form {
     display: flex;
+    margin-top: 50px;
     flex-direction: column;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
+    font-family: sans-serif;
     box-shadow: #3498db 7px 7px 7px;
     text-align: center;
   }
@@ -35,10 +38,13 @@
     padding: 10px 20px;
     border-radius: 5px;
   }
-  footer {
-    padding: 20px;
+  .footer {
+    padding: 8px;
     text-align: center;
-    background: #ddd;
+    background: #9da1a9;
     font-size: 7pt;
+    width: 100%;
+    margin-top: auto;
+    font-family: sans-serif;
   }
   

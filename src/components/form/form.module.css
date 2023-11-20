@@ -7,11 +7,20 @@
     margin: 0;
     flex-direction: column
   }
+  .main label {
+    font-size: 14px;
+    margin-bottom: .5rem;
+  }
   .main input{
+    width: 100%;
     border-radius: 10px;
-    height: 30px;
+    height: 35px;
     border: none;
-    background-color: #fafafa;
+    background-color: #fff;
+    text-indent: 10px;
+  }
+  .main input:last-child {
+    width: auto;
   }
   .termos{
     display: flex;
@@ -23,12 +32,18 @@
     display: flex;
     margin-top: 50px;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #fafafac1;
     padding: 20px;
     border-radius: 5px;
+    padding: 20px 35px;
     font-family: sans-serif;
-    box-shadow: #3498db 7px 7px 7px;
+    box-shadow: #0000003b 3px 3px 3px;
     text-align: center;
+  }
+
+  .main a {
+    color: #000;
+    font-size: 14px;
   }
   
   .main button {
@@ -38,6 +53,13 @@
     padding: 10px 20px;
     border-radius: 5px;
   }
+
+  .main button:hover {
+    background-color: #2c709d;
+    transition: .5s;
+    cursor: pointer;
+  }
+
   .footer {
     padding: 8px;
     text-align: center;
